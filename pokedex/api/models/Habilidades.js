@@ -15,10 +15,11 @@ module.exports = {
 
         tipoDano: {
             type: 'string',
-            defaultsTo: 'Normal',
-            idPokemon: {
-                model: 'pokemon'
-            }
+            defaultsTo: 'Normal'
+        },
+
+        idPokemon: {
+            model: 'pokemon'
         }
 
 
